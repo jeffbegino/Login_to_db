@@ -1,10 +1,12 @@
-﻿Imports System.IO
+﻿Imports System.Data.Common
+Imports Excel = Microsoft.Office.Interop.Excel
 Imports MySql.Data.MySqlClient
 
 Public Class Customers
+    Private myquery As String = "select * from edp.customer"
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Close()
-        Form2.Show()
+        HomepageForm.Show()
     End Sub
 
     Private Sub DataGridViewCustomer_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridViewCustomer.CellContentClick
@@ -18,8 +20,6 @@ Public Class Customers
         Dim mytable As New DataTable
         Dim mygrid As New BindingSource
         Try
-            Dim myquery As String
-            myquery = "select * from edp.customer"
             mycmd = New MySqlCommand(myquery, myconn)
             myadapter.SelectCommand = mycmd
             myadapter.Fill(mytable)
@@ -51,42 +51,7 @@ Public Class Customers
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        ' Display the FolderBrowserDialog to choose a folder for saving the file
-        With FolderBrowserDialog1
-            .SelectedPath = "C:\"
-            If .ShowDialog = Windows.Forms.DialogResult.OK Then
-                ' Get the selected folder path
-                Dim folderPath As String = .SelectedPath
-
-                ' Get the DataGridView data source
-                Dim dataSource As DataTable = TryCast(DataGridViewCustomer.DataSource, BindingSource)?.DataSource
-
-                ' Check if the data source is not null and has rows
-                If dataSource IsNot Nothing AndAlso dataSource.Rows.Count > 0 Then
-                    ' Generate the CSV file path
-                    Dim filePath As String = Path.Combine(folderPath, "customer.csv")
-
-                    ' Write the data to the CSV file
-                    Using writer As New StreamWriter(filePath)
-                        ' Write the header row
-                        Dim headerRow As String = String.Join(",", dataSource.Columns.Cast(Of DataColumn).Select(Function(col) col.ColumnName))
-                        writer.WriteLine(headerRow)
-
-                        ' Write the data rows
-                        For Each row As DataRow In dataSource.Rows
-                            Dim dataRow As String = String.Join(",", row.ItemArray.Select(Function(value) value.ToString()))
-                            writer.WriteLine(dataRow)
-                        Next
-                    End Using
-
-                    ' Show success message
-                    MsgBox("File saved to " + filePath)
-                Else
-                    ' Show error message
-                    MsgBox("No data to save.")
-                End If
-            End If
-        End With
+        Call ExportToExcel(Me.DataGridViewCustomer, "CustomerDataset.xlsx")
     End Sub
 
 

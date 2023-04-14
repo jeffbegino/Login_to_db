@@ -4,7 +4,7 @@ Public Class Orders
     Dim mycmd As MySqlCommand
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Close()
-        Form2.Show()
+        HomepageForm.Show()
     End Sub
 
     Public Sub DataGridViewOrder_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridViewOrder.CellContentClick
@@ -36,5 +36,9 @@ Public Class Orders
 
     Private Sub Orders_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Call ExportToExcel(Me.DataGridViewOrder, "OrderDataset.xlsx")
     End Sub
 End Class

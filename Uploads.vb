@@ -29,7 +29,7 @@ Public Class Uploads
 
     Private Sub ButtonExit_Click(sender As Object, e As EventArgs) Handles ButtonExit.Click
         Close()
-        Form2.Show()
+        HomepageForm.Show()
     End Sub
 
     Private Sub Uploads_Load(sender As Object, e As EventArgs) Handles MyBase.Load

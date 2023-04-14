@@ -113,7 +113,7 @@ Partial Class Customers
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(192, 34)
         Me.Button6.TabIndex = 7
-        Me.Button6.Text = "Backup Dataset"
+        Me.Button6.Text = "Print Datagrid"
         Me.Button6.UseVisualStyleBackColor = False
         '
         'Customers

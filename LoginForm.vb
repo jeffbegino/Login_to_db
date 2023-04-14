@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 
-Public Class Form1
+Public Class LoginForm
     Private Sub ButtonExit_Click_1(sender As Object, e As EventArgs) Handles ButtonExit.Click
         Application.Exit()
     End Sub
@@ -28,7 +28,7 @@ Public Class Form1
             myreader = mycomm.ExecuteReader
             If myreader.HasRows Then
                 .Hide()
-                Form2.Show()
+                HomepageForm.Show()
                 myconn.Close()
             Else
                 MessageBox.Show("Invalid username or password!")

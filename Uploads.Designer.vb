@@ -52,7 +52,7 @@ Partial Class Uploads
         Me.ButtonUpload.Name = "ButtonUpload"
         Me.ButtonUpload.Size = New System.Drawing.Size(164, 29)
         Me.ButtonUpload.TabIndex = 10
-        Me.ButtonUpload.Text = "Upload CSV File"
+        Me.ButtonUpload.Text = "Select a CSV File"
         Me.ButtonUpload.UseVisualStyleBackColor = False
         '
         'ButtonExit
@@ -64,7 +64,7 @@ Partial Class Uploads
         Me.ButtonExit.Name = "ButtonExit"
         Me.ButtonExit.Size = New System.Drawing.Size(182, 29)
         Me.ButtonExit.TabIndex = 11
-        Me.ButtonExit.Text = "Exit"
+        Me.ButtonExit.Text = "Back"
         Me.ButtonExit.UseVisualStyleBackColor = False
         '
         'Uploads

@@ -38,9 +38,9 @@ Partial Class OrderItem
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.LightCoral
-        Me.Button1.Location = New System.Drawing.Point(12, 261)
+        Me.Button1.Location = New System.Drawing.Point(211, 302)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(147, 34)
+        Me.Button1.Size = New System.Drawing.Size(192, 34)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = False
@@ -49,9 +49,9 @@ Partial Class OrderItem
         '
         Me.DataGridViewOrderItem.BackgroundColor = System.Drawing.SystemColors.Info
         Me.DataGridViewOrderItem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewOrderItem.Location = New System.Drawing.Point(165, 57)
+        Me.DataGridViewOrderItem.Location = New System.Drawing.Point(12, 57)
         Me.DataGridViewOrderItem.Name = "DataGridViewOrderItem"
-        Me.DataGridViewOrderItem.Size = New System.Drawing.Size(238, 238)
+        Me.DataGridViewOrderItem.Size = New System.Drawing.Size(391, 159)
         Me.DataGridViewOrderItem.TabIndex = 4
         '
         'Label1
@@ -69,9 +69,9 @@ Partial Class OrderItem
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button2.Location = New System.Drawing.Point(12, 57)
+        Me.Button2.Location = New System.Drawing.Point(12, 222)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(147, 34)
+        Me.Button2.Size = New System.Drawing.Size(192, 34)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Load Table"
         Me.Button2.UseVisualStyleBackColor = False
@@ -79,9 +79,9 @@ Partial Class OrderItem
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button5.Location = New System.Drawing.Point(12, 97)
+        Me.Button5.Location = New System.Drawing.Point(211, 222)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(147, 34)
+        Me.Button5.Size = New System.Drawing.Size(192, 34)
         Me.Button5.TabIndex = 7
         Me.Button5.Text = "Insert"
         Me.Button5.UseVisualStyleBackColor = False
@@ -89,9 +89,9 @@ Partial Class OrderItem
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button4.Location = New System.Drawing.Point(12, 137)
+        Me.Button4.Location = New System.Drawing.Point(12, 262)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(147, 34)
+        Me.Button4.Size = New System.Drawing.Size(192, 34)
         Me.Button4.TabIndex = 8
         Me.Button4.Text = "Update"
         Me.Button4.UseVisualStyleBackColor = False
@@ -99,9 +99,9 @@ Partial Class OrderItem
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button3.Location = New System.Drawing.Point(12, 177)
+        Me.Button3.Location = New System.Drawing.Point(211, 262)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(147, 34)
+        Me.Button3.Size = New System.Drawing.Size(192, 34)
         Me.Button3.TabIndex = 9
         Me.Button3.Text = "Delete"
         Me.Button3.UseVisualStyleBackColor = False
@@ -109,11 +109,11 @@ Partial Class OrderItem
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.Color.LimeGreen
-        Me.Button6.Location = New System.Drawing.Point(12, 301)
+        Me.Button6.Location = New System.Drawing.Point(12, 302)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(192, 34)
         Me.Button6.TabIndex = 10
-        Me.Button6.Text = "Backup Dataset"
+        Me.Button6.Text = "Print_to_Excel"
         Me.Button6.UseVisualStyleBackColor = False
         '
         'OrderItem

@@ -4,7 +4,7 @@ Public Class Product
     Dim mycmd As MySqlCommand
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Close()
-        Form2.Show()
+        HomepageForm.Show()
     End Sub
 
     Public Sub DataGridViewProduct_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridViewProduct.CellContentClick
@@ -36,5 +36,17 @@ Public Class Product
 
     Private Sub Product_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Call ExportToExcel(Me.DataGridViewProduct, "ProductDataset.xlsx")
     End Sub
 End Class

@@ -30,15 +30,16 @@ Partial Class Supplier
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         CType(Me.DataGridViewSupplier, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.LightCoral
-        Me.Button1.Location = New System.Drawing.Point(12, 260)
+        Me.Button1.Location = New System.Drawing.Point(211, 300)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(147, 34)
+        Me.Button1.Size = New System.Drawing.Size(192, 34)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = False
@@ -47,9 +48,9 @@ Partial Class Supplier
         '
         Me.DataGridViewSupplier.BackgroundColor = System.Drawing.SystemColors.Info
         Me.DataGridViewSupplier.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewSupplier.Location = New System.Drawing.Point(165, 56)
+        Me.DataGridViewSupplier.Location = New System.Drawing.Point(12, 55)
         Me.DataGridViewSupplier.Name = "DataGridViewSupplier"
-        Me.DataGridViewSupplier.Size = New System.Drawing.Size(238, 238)
+        Me.DataGridViewSupplier.Size = New System.Drawing.Size(391, 159)
         Me.DataGridViewSupplier.TabIndex = 7
         '
         'Label1
@@ -68,9 +69,9 @@ Partial Class Supplier
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button2.Location = New System.Drawing.Point(12, 56)
+        Me.Button2.Location = New System.Drawing.Point(12, 220)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(147, 34)
+        Me.Button2.Size = New System.Drawing.Size(192, 34)
         Me.Button2.TabIndex = 9
         Me.Button2.Text = "Load Table"
         Me.Button2.UseVisualStyleBackColor = False
@@ -78,9 +79,9 @@ Partial Class Supplier
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button3.Location = New System.Drawing.Point(12, 176)
+        Me.Button3.Location = New System.Drawing.Point(211, 260)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(147, 34)
+        Me.Button3.Size = New System.Drawing.Size(192, 34)
         Me.Button3.TabIndex = 10
         Me.Button3.Text = "Delete"
         Me.Button3.UseVisualStyleBackColor = False
@@ -88,9 +89,9 @@ Partial Class Supplier
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button4.Location = New System.Drawing.Point(12, 136)
+        Me.Button4.Location = New System.Drawing.Point(12, 260)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(147, 34)
+        Me.Button4.Size = New System.Drawing.Size(192, 34)
         Me.Button4.TabIndex = 11
         Me.Button4.Text = "Update"
         Me.Button4.UseVisualStyleBackColor = False
@@ -98,12 +99,22 @@ Partial Class Supplier
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button5.Location = New System.Drawing.Point(12, 96)
+        Me.Button5.Location = New System.Drawing.Point(211, 220)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(147, 34)
+        Me.Button5.Size = New System.Drawing.Size(192, 34)
         Me.Button5.TabIndex = 12
         Me.Button5.Text = "Insert"
         Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.LimeGreen
+        Me.Button6.Location = New System.Drawing.Point(12, 300)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(192, 34)
+        Me.Button6.TabIndex = 15
+        Me.Button6.Text = "Print_to_Excel"
+        Me.Button6.UseVisualStyleBackColor = False
         '
         'Supplier
         '
@@ -112,6 +123,7 @@ Partial Class Supplier
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(415, 345)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -135,4 +147,5 @@ Partial Class Supplier
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
 End Class
