@@ -137,7 +137,7 @@ Partial Class HomepageForm
         Me.ButtonBackup.Text = "Backup Database"
         Me.ButtonBackup.UseVisualStyleBackColor = False
         '
-        'Form2
+        'HomepageForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -153,10 +153,11 @@ Partial Class HomepageForm
         Me.Controls.Add(Me.ButtonOrders)
         Me.Controls.Add(Me.ButtonCustomer)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "Form2"
+        Me.Name = "HomepageForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form2"
+        Me.Text = "Homepage"
         Me.ResumeLayout(False)
 
     End Sub

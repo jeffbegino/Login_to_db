@@ -94,7 +94,7 @@ Partial Class LoginForm
         Me.ButtonExit.Text = "Exit"
         Me.ButtonExit.UseVisualStyleBackColor = False
         '
-        'Form1
+        'LoginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -109,10 +109,11 @@ Partial Class LoginForm
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "LoginForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Login_Form"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

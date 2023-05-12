@@ -48,4 +48,5 @@ Public Class LoginForm
     Private Sub TextBoxUsername_TextChanged(sender As Object, e As EventArgs) Handles TextBoxUsername.TextChanged
 
     End Sub
+
 End Class

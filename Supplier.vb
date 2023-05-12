@@ -45,4 +45,5 @@ Public Class Supplier
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         Call ExportToExcel(Me.DataGridViewSupplier, "SupplierDataset.xlsx")
     End Sub
+
 End Class
