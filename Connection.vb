@@ -11,7 +11,7 @@ Module Connection
     Public currentDate As DateTime = DateTime.Now
     Public strpassword = "begino2002"
     'Public xlsPath As String = "C:\Python_Programs\Datasets\dataXls\TEMPLATE\"
-    Public xlsFiles As String = "C:\Python_Programs\Datasets\dataXls\"
+    Public xlsFiles As String = "C:\Users\Acer\OneDrive\Mga Dokumento\"
 
     Public Sub Connect_to_DB()
         myConnectionString = "server=127.0.0.1;" _
