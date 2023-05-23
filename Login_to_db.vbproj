@@ -162,6 +162,12 @@
     <Compile Include="Delete_Product.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Delete_Supplier.Designer.vb">
+      <DependentUpon>Delete_Supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Insert_Order.Designer.vb">
       <DependentUpon>Insert_Order.vb</DependentUpon>
     </Compile>
@@ -263,6 +269,12 @@
     <Compile Include="Update_Product.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Update_Supplier.Designer.vb">
+      <DependentUpon>Update_Supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Update_Table.Designer.vb">
       <DependentUpon>Update_Table.vb</DependentUpon>
     </Compile>
@@ -292,6 +304,9 @@
     <EmbeddedResource Include="Delete_Product.resx">
       <DependentUpon>Delete_Product.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Supplier.resx">
+      <DependentUpon>Delete_Supplier.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Insert_Order.resx">
       <DependentUpon>Insert_Order.vb</DependentUpon>
     </EmbeddedResource>
@@ -300,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Insert_Product.resx">
       <DependentUpon>Insert_Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert_Supplier.resx">
+      <DependentUpon>Insert_Supplier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>
@@ -336,6 +354,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Update_Product.resx">
       <DependentUpon>Update_Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Supplier.resx">
+      <DependentUpon>Update_Supplier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Update_Table.resx">
       <DependentUpon>Update_Table.vb</DependentUpon>

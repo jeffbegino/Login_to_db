@@ -39,11 +39,16 @@ Public Class Supplier
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-
+        Close()
+        Delete_Supplier.Show()
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         Call ExportToExcel(Me.DataGridViewSupplier, "SupplierDataset.xlsx")
     End Sub
 
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Close()
+        Insert_Supplier.Show()
+    End Sub
 End Class
