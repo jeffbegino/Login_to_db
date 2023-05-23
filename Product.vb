@@ -39,15 +39,21 @@ Public Class Product
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-
+        Close()
+        Update_Product.Show()
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-
+        Close()
+        Insert_Product.Show()
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         Call ExportToExcel(Me.DataGridViewProduct, "ProductDataset.xlsx")
     End Sub
 
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Close()
+        Delete_Product.Show()
+    End Sub
 End Class

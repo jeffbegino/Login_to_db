@@ -47,4 +47,13 @@ Public Class OrderItem
         Call ExportToExcel(Me.DataGridViewOrderItem, "OrderItemDataset.xlsx")
     End Sub
 
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Close()
+        Insert_OrderItem.Show()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Close()
+        Delete_OrderItem.Show()
+    End Sub
 End Class

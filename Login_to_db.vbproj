@@ -144,6 +144,48 @@
     <Compile Include="Delete.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Delete_Order.Designer.vb">
+      <DependentUpon>Delete_Order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_OrderItem.Designer.vb">
+      <DependentUpon>Delete_OrderItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_OrderItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Product.Designer.vb">
+      <DependentUpon>Delete_Product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert_Order.Designer.vb">
+      <DependentUpon>Insert_Order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Insert_Order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert_OrderItem.Designer.vb">
+      <DependentUpon>Insert_OrderItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Insert_OrderItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert_Product.Designer.vb">
+      <DependentUpon>Insert_Product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Insert_Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert_Supplier.Designer.vb">
+      <DependentUpon>Insert_Supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Insert_Supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +245,24 @@
     <Compile Include="Supplier.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Update_Order.Designer.vb">
+      <DependentUpon>Update_Order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_OrderItem.Designer.vb">
+      <DependentUpon>Update_OrderItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_OrderItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Product.Designer.vb">
+      <DependentUpon>Update_Product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Update_Table.Designer.vb">
       <DependentUpon>Update_Table.vb</DependentUpon>
     </Compile>
@@ -222,6 +282,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Delete.resx">
       <DependentUpon>Delete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Order.resx">
+      <DependentUpon>Delete_Order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_OrderItem.resx">
+      <DependentUpon>Delete_OrderItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Product.resx">
+      <DependentUpon>Delete_Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert_Order.resx">
+      <DependentUpon>Insert_Order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert_OrderItem.resx">
+      <DependentUpon>Insert_OrderItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert_Product.resx">
+      <DependentUpon>Insert_Product.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>
@@ -249,6 +327,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Supplier.resx">
       <DependentUpon>Supplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Order.resx">
+      <DependentUpon>Update_Order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_OrderItem.resx">
+      <DependentUpon>Update_OrderItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Product.resx">
+      <DependentUpon>Update_Product.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Update_Table.resx">
       <DependentUpon>Update_Table.vb</DependentUpon>

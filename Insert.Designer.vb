@@ -191,6 +191,7 @@ Partial Class Insert
         Me.Controls.Add(Me.TextBoxFirstName)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBoxUser_ID)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Insert"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Insert"

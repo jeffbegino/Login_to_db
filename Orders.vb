@@ -42,4 +42,18 @@ Public Class Orders
         Call ExportToExcel(Me.DataGridViewOrder, "OrderDataset.xlsx")
     End Sub
 
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Close()
+        Delete_Order.Show()
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Close()
+        Insert_Order.Show()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Close()
+        Update_Order.Show()
+    End Sub
 End Class

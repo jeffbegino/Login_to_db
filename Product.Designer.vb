@@ -130,6 +130,7 @@ Partial Class Product
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridViewProduct)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Product"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
