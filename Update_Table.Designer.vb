@@ -191,6 +191,7 @@ Partial Class Update_Table
         Me.Controls.Add(Me.TextBoxFirstName)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBoxUser_ID)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Update_Table"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

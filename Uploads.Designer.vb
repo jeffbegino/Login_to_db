@@ -76,6 +76,7 @@ Partial Class Uploads
         Me.Controls.Add(Me.ButtonExit)
         Me.Controls.Add(Me.ButtonUpload)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Uploads"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Uploads"

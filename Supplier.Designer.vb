@@ -131,6 +131,7 @@ Partial Class Supplier
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridViewSupplier)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Supplier"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

@@ -80,6 +80,7 @@ Partial Class Delete
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBoxDelete)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Delete"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Delete"
