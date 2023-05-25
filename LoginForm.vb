@@ -42,11 +42,17 @@ Public Class LoginForm
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        TextBoxPassword.PasswordChar = "*"
     End Sub
 
     Private Sub TextBoxUsername_TextChanged(sender As Object, e As EventArgs) Handles TextBoxUsername.TextChanged
 
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        With Me
+            .Hide()
+            RegisterForm.Show()
+        End With
+    End Sub
 End Class

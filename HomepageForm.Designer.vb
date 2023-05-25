@@ -36,7 +36,7 @@ Partial Class HomepageForm
         '
         'Label1
         '
-        Me.Label1.BackColor = System.Drawing.Color.Green
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label1.Font = New System.Drawing.Font("Microsoft Uighur", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black

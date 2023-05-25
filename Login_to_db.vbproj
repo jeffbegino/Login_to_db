@@ -245,6 +245,12 @@
     <Compile Include="Product.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="RegisterForm.Designer.vb">
+      <DependentUpon>RegisterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Supplier.Designer.vb">
       <DependentUpon>Supplier.vb</DependentUpon>
     </Compile>
@@ -342,6 +348,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Product.resx">
       <DependentUpon>Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Supplier.resx">
       <DependentUpon>Supplier.vb</DependentUpon>
